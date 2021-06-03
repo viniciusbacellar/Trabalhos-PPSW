@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+body {
+  background: #666666;
+}
+
+ul {
+  list-style: none;
+}
+
+#cores {
+  width: 90%;
+  padding: 30px 0;
+  background: #fff;
+  margin: 30px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#cores ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#cores ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+  width: 200px;
+}
+
+#cores ul li input {
+  padding: 5px 10px;
+  margin-bottom: 6px;
+}
+
+#cores ul li button {
+  width: 20px;
+  border-radius: 50%;
+  padding: 5px 15px 5px 10px;
+  border: none;
+}
+
+#caixa {
+  background: #fff;
+  width: 90%;
+  padding: 20px;
+  margin: 0 auto;
+  border: solid 1px #000;
+  box-shadow: 0 0 10px #000;
+  font-size: 16px;
+}
+
+#caixa hr {
+  margin: 10px 0;
+}
+
+#caixa h1 {
+  color: #000066;
+  font-weight: normal;
+}
+
+#caixa img {
+  max-width: 640px;
+}
+
+#caixa img {
+  display: none;
+}
+
+#caixa img.active {
+  display: block;
+}
+
+#caixa h2 {
+  color: #0080c0;
+  font-weight: normal;
+}
+
+#caixa p {
+  font-size: 11pt;
+  text-align: justify;
+  text-indent: 50px;
+  line-height: 16pt;
+}
+
+#caixa address {
+  font-size: 10pt;
+  text-align: center;
+  font-style: normal;
+}
+
+/* DOM */
