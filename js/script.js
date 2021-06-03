@@ -89,14 +89,32 @@ const imagens = document.querySelectorAll('#caixa img')
 function mudarImagem(index) {
   imagens.forEach((imagem) => {
     imagem.classList.remove('active');
+    imagem.classList.remove('fix');
   })
   imagens[index].classList.add('active')
 }
+function fixarImagem() {
+  imagens.forEach((imagem) => {
+    imagem.classList.remove('active');
+  })
+  imagens[4].classList.add('fix')
+}
 links.forEach((link, index) => {
+  link.addEventListener('mouseout', fixarImagem);
   link.addEventListener('mouseover', () => {
     mudarImagem(index)
   })
 })
+
+
+
+
+
+
+
+
+
+
 }
 navTab();
 

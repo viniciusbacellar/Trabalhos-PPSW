@@ -81,6 +81,10 @@ ul {
   display: block;
 }
 
+#caixa img.fix {
+  display: block;
+}
+
 #caixa h2 {
   color: #0080c0;
   font-weight: normal;
